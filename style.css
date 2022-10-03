@@ -9,7 +9,7 @@
   font-family: inter;
 }
 
-h2{
+h2 {
   text-align: center;
   background-color: #4E27E1;
   color: rgb(255, 255, 255);
@@ -19,9 +19,9 @@ h2{
 }
 
 .container {
- display: flex;
- flex-direction: column;
- text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   /* padding: 1rem; */
   /* margin: auto; */
   /* max-width: 600px; */
@@ -64,7 +64,7 @@ h3 {
   border-bottom-right-radius: 20%;
 }
 
-.github{
+.github {
   background: #000000;
 }
 
@@ -109,7 +109,7 @@ h3 {
   transform: rotateY(180deg);
 }
 
-.link-s{
+.link-s {
   color: white;
   text-decoration: none;
 }

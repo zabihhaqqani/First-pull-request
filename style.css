@@ -41,22 +41,75 @@ h3 {
   color: black;
   justify-content: center;
   line-height: 30px;
-  padding: 1rem;
-  width: 100vw;
-}
-
-.footer .link {
-  color: #fff;
-}
-
-.social-icons a {
   padding: 0.5rem;
-text-decoration: none;
+  width: 100%;
 }
 
-.attribution{
+.cardBox {
+  perspective: 50px;
+  margin: 15px;
+}
+
+.card {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  background: #FFF;
+  transform-style: preserve-3d;
+  transition: 1s;
+  box-shadow: 0px 20px 20px rgb(0, 0, 0, 0.5);
+  border-top-left-radius: 20%;
+  border-top-right-radius: none;
+  border-bottom-left-radius: none;
+  border-bottom-right-radius: 20%;
+}
+
+.github{
+  background: #000000;
+}
+
+.twitter {
+  background: #1da1f2;
+}
+
+.linkedin {
+  background: #4a53f2;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45px;
+  height: 45px;
+  color: #FFF;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center
+}
+
+.card-back {
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardBox:hover .card {
+  transform: rotateY(180deg);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+.link-s{
+  color: white;
   text-decoration: none;
-  padding: 0.5rem;
-  font-size: 15px;
 }
-

@@ -6,7 +6,7 @@ Make your first pull Request here
 
 Step by step procedure to make your first pull request
 
-https://hashnode.com/preview/61dd6de36226ab4f74bef193
+https://zabihhaqqani.hashnode.dev/first-pull-request
 
 # Contributing
 Pull requests are always and most welcomed. For major changes, please open an issue first to discuss what you would like to change.
